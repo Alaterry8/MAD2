@@ -1,0 +1,122 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lora', serif; /* Elegant serif font */
+    color: #2c3e50; /* Navy blue */
+    background-color: #f8f9fa; /* Light background */
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #34495e; /* Dark navy blue */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ecf0f1; /* Light grey */
+    padding: 10px 20px;
+    border: 2px solid #ecf0f1;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #ecf0f1;
+    color: #34495e; /* Dark navy blue */
+}
+
+/* Main content styles */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2, h3 {
+    color: #34495e; /* Dark navy blue */
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+p, li {
+    margin-bottom: 1rem;
+}
+
+/* Footer styles */
+footer {
+    background-color: #34495e; /* Dark navy blue */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+/* Contact form styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    margin-bottom: 1rem;
+    padding: 10px;
+    border: 2px solid #34495e; /* Dark navy blue */
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #34495e; /* Dark navy blue */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+form button:hover {
+    background-color: #ecf0f1; /* Light grey */
+    color: #34495e; /* Dark navy blue */
+}
